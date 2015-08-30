@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    //Instance Variables
+    var arrayOfQuestions = []
+    var numberOfLives = 3
+    var numberOfPoints = 0
+    var currentQuestion = 0
+    var questionCorrectAnswer = 1
+    
     //UI Outlets
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var currentNumberOfPointsLabel: UILabel!
