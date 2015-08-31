@@ -38,7 +38,19 @@ class ViewController: UIViewController {
     //MARK: Add question
     func questionTemplate(question:String, answerOne:String, answerTwo:String, answerThree:String, answerFour:String, correctAnswer:Int) -> NSArray {
     
-    
+        //Set the question
+        let quizQuestion = question
+        
+        //set the answers and the right answer
+        let firstAnswer = answerOne
+        let secondAnswer = answerTwo
+        let thirdAnswer = answerThree
+        let fourthAnswer = answerFour
+        let rightAnswer = correctAnswer
+        
+        //Add all the questions and answers to an array
+        let questionAnswerArray = [question, firstAnswer, secondAnswer, thirdAnswer, fourthAnswer, rightAnswer]
+        return questionAnswerArray
         
     }
 
