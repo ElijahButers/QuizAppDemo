@@ -41,6 +41,9 @@ class ViewController: UIViewController {
         let questionThree = questionTemplate("What country was first invaded by Germany?", answerOne: "France", answerTwo: "Belgium", answerThree: "Poland", answerFour: "Russia", correctAnswer: 3)
         let questionFour = questionTemplate("Which article of the Weimar Constitution granted Hitler his dictator powers? ", answerOne: "Article 26", answerTwo: "Article 86", answerThree: "Article 3", answerFour: "Article 48", correctAnswer: 4)
         let questionFive = questionTemplate("Who was the leader of the Soviet Union during World War II?", answerOne: "Lenin", answerTwo: "Trotsky", answerThree: "Stalin", answerFour: "Khruschev", correctAnswer: 3)
+        
+        //Add the questions to the array
+        arrayOfQuestions = [questionOne, questionTwo, questionThree, questionFour, questionFive]
 
     }
     
