@@ -71,7 +71,16 @@ class ViewController: UIViewController {
         return questionAnswerArray
         
     }
+    
+    // Function for setting the game to its initial state
+    func initialState() {
+        //Setting the initial values
+        numberOfLives = 3
+        numberOfPoints = 0
+        currentQuestion = 0
+        questionCorrectAnswer = 1
 
 
 }
 
+}
